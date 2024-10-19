@@ -1,4 +1,5 @@
-import { useRef } from "react"
+import { useRef } from "react";
+import NextLiner from "./NextLiner";
 
 export default function InputText({ setInput }) {
 
@@ -7,8 +8,9 @@ export default function InputText({ setInput }) {
   return (
     <>
       <input type="text" ref={text} className="inputBox"/>
-      <br />
-      <br />
+      
+      <NextLiner />
+
       <button className="button" onClick={() => setInput(text.current.value)}>Search</button>
     </>
   )
