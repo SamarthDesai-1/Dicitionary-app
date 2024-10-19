@@ -51,6 +51,7 @@
   margin: 15px 20px;
   font-size: large;
   width: 330px;
+  text-decoration: none;
 }
 
 .button {
@@ -58,4 +59,8 @@
   padding: 15px 32px;
   font-size: 16px;
   cursor: pointer;
+}
+
+.fontText {
+  font-weight: bold;
 }

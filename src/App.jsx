@@ -3,7 +3,7 @@ import InputText from '../Components/InputText';
 import { useState } from 'react';
 import Response from '../Components/Response';
 
-function App() {
+export default function App() {
 
   const [input, setInput] = useState('');
   const [response, setResponse] = useState('');
@@ -13,11 +13,11 @@ function App() {
 
   return (
     <>
+
       <h1>Dicitionary app</h1>
       <InputText setInput={setInput} />
       <Response response={response} />
+
     </>
   )
 }
-
-export default App;
