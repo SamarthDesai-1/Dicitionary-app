@@ -2,7 +2,7 @@ export default function Response({ response }) {
   
   return (
     <>
-      <h4 className="fontText">{response}</h4>
+      <h3 className="fontText">{response}</h3>
     </>
   )
 };
