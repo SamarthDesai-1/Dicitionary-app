@@ -54,14 +54,21 @@
   text-decoration: none;
   border-radius: 10px;
   border-style: none;
+  box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.2), 0 5px 25px 0 rgba(0, 0, 0, 0.19);
   outline: none;
 }
 
 .button {
+  margin: 10px 10px;
   background-color: #4caf50;
   padding: 14px 30px;
   font-size: bold;
   cursor: pointer;
+  color: white;
+  border-radius: 10px;
+  border-style: none;
+  box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.2), 0 5px 25px 0 rgba(0, 0, 0, 0.19);
+  font-size: 16px;
 }
 
 .fontText {
